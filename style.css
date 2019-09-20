@@ -1,6 +1,40 @@
 body {
-    background-image: url("../images/background.jpg");
-    color:purple;
-    background-size: 90%;
- 
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Comfortaa', cursive;
+    background-size: 100%
+
 }
+
+.container{
+    text-align: center;
+    /* margin-left: 33%;
+    margin-right: 33%; */
+
+}
+
+#buttons-div{
+    color: purple;
+    height: 15px;
+}
+
+button{
+    background: rgb(113, 231, 113);
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 15px;
+    
+}
+
+#gifs-appear-here{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 20px
+    
+}
+
+.gifClass{
+    padding-right: 10px;
+    display: block
+}
+
+
